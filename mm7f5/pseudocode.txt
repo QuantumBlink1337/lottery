@@ -1,0 +1,6 @@
+sumofP = 0
+for each powerball x < 57
+	sumofP += x
+averageP = sumofP / 57
+for each powerball 57 <= x <= 75
+	powerball = calculateProbability() + averageP
